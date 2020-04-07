@@ -1,0 +1,130 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+
+}
+
+
+h1{
+  color: #4d4c7d;
+  font-size: 5.625rem; /*font size100% =16px = 1em  remไม่สนฟอร์นไซต์อื่น*/
+  width: 40%;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+h2{
+  color: #4d4c7d;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #4d4c7d;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Baloo Thambi 2', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+ .top{
+   background-color:#66BFBF;
+     position: relative;
+     padding-top: 100px;
+ }
+.middle{
+  margin: 100px 0;
+}
+.bottom{
+  background-color:#66BFBF;
+  padding: 50px 0 20px;
+}
+
+.mypic{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+
+}
+
+.cloud-a{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+}
+ .cloud-b{
+   position: absolute;
+   left: 250px;
+   bottom: 300px;
+}
+.icon{
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.icon2{
+  height: 25%;
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copy{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Comic Neue', cursive;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
